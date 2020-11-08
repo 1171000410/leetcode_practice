@@ -11,6 +11,7 @@
 		F60362172538A4A7006ECC71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F60362162538A4A7006ECC71 /* main.cpp */; };
 		F642BB2F25524C3800153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB2E25524C3800153D40 /* main.cpp */; };
 		F642BB422552C1A700153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB412552C1A700153D40 /* main.cpp */; };
+		F642BB562553DA1B00153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB552553DA1B00153D40 /* main.cpp */; };
 		F678FE1D254AEA0C00FD275E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F678FE1C254AEA0C00FD275E /* main.cpp */; };
 		F69311F12497ABA900F132B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F69311F02497ABA900F132B6 /* main.cpp */; };
 		F6A2B14C2535CA2E00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B14B2535CA2E00A1E4B0 /* main.cpp */; };
@@ -47,6 +48,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F642BB3D2552C1A700153D40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F642BB512553DA1B00153D40 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -111,6 +121,8 @@
 		F642BB2E25524C3800153D40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F642BB3F2552C1A700153D40 /* 9. Palindrome Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9. Palindrome Number"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F642BB412552C1A700153D40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F642BB532553DA1B00153D40 /* 10. Regular Expression Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10. Regular Expression Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F642BB552553DA1B00153D40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F678FE1A254AEA0C00FD275E /* 6. ZigZag Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6. ZigZag Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F678FE1C254AEA0C00FD275E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F69311ED2497ABA900F132B6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +158,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F642BB3C2552C1A700153D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F642BB502553DA1B00153D40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,6 +241,14 @@
 			path = "9. Palindrome Number";
 			sourceTree = "<group>";
 		};
+		F642BB542553DA1B00153D40 /* 10. Regular Expression Matching */ = {
+			isa = PBXGroup;
+			children = (
+				F642BB552553DA1B00153D40 /* main.cpp */,
+			);
+			path = "10. Regular Expression Matching";
+			sourceTree = "<group>";
+		};
 		F678FE1B254AEA0C00FD275E /* 6. ZigZag Conversion */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +269,7 @@
 				F678FE1B254AEA0C00FD275E /* 6. ZigZag Conversion */,
 				F642BB2D25524C3800153D40 /* 7. Reverse Integer */,
 				F642BB402552C1A700153D40 /* 9. Palindrome Number */,
+				F642BB542553DA1B00153D40 /* 10. Regular Expression Matching */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -258,6 +286,7 @@
 				F678FE1A254AEA0C00FD275E /* 6. ZigZag Conversion */,
 				F642BB2C25524C3800153D40 /* 7. Reverse Integer */,
 				F642BB3F2552C1A700153D40 /* 9. Palindrome Number */,
+				F642BB532553DA1B00153D40 /* 10. Regular Expression Matching */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -363,6 +392,23 @@
 			name = "9. Palindrome Number";
 			productName = "9. Palindrome Number";
 			productReference = F642BB3F2552C1A700153D40 /* 9. Palindrome Number */;
+			productType = "com.apple.product-type.tool";
+		};
+		F642BB522553DA1B00153D40 /* 10. Regular Expression Matching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F642BB572553DA1B00153D40 /* Build configuration list for PBXNativeTarget "10. Regular Expression Matching" */;
+			buildPhases = (
+				F642BB4F2553DA1B00153D40 /* Sources */,
+				F642BB502553DA1B00153D40 /* Frameworks */,
+				F642BB512553DA1B00153D40 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10. Regular Expression Matching";
+			productName = "10. Regular Expression Matching";
+			productReference = F642BB532553DA1B00153D40 /* 10. Regular Expression Matching */;
 			productType = "com.apple.product-type.tool";
 		};
 		F678FE19254AEA0C00FD275E /* 6. ZigZag Conversion */ = {
@@ -471,6 +517,9 @@
 					F642BB3E2552C1A700153D40 = {
 						CreatedOnToolsVersion = 12.1;
 					};
+					F642BB522553DA1B00153D40 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 					F678FE19254AEA0C00FD275E = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -510,6 +559,7 @@
 				F678FE19254AEA0C00FD275E /* 6. ZigZag Conversion */,
 				F642BB2B25524C3800153D40 /* 7. Reverse Integer */,
 				F642BB3E2552C1A700153D40 /* 9. Palindrome Number */,
+				F642BB522553DA1B00153D40 /* 10. Regular Expression Matching */,
 			);
 		};
 /* End PBXProject section */
@@ -544,6 +594,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F642BB422552C1A700153D40 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F642BB4F2553DA1B00153D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F642BB562553DA1B00153D40 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +712,24 @@
 			name = Debug;
 		};
 		F642BB452552C1A700153D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F642BB582553DA1B00153D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F642BB592553DA1B00153D40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -894,6 +970,15 @@
 			buildConfigurations = (
 				F642BB442552C1A700153D40 /* Debug */,
 				F642BB452552C1A700153D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F642BB572553DA1B00153D40 /* Build configuration list for PBXNativeTarget "10. Regular Expression Matching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F642BB582553DA1B00153D40 /* Debug */,
+				F642BB592553DA1B00153D40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
