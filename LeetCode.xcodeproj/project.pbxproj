@@ -17,6 +17,7 @@
 		F6A2B14C2535CA2E00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B14B2535CA2E00A1E4B0 /* main.cpp */; };
 		F6A2B1592536F99A00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B1582536F99A00A1E4B0 /* main.cpp */; };
 		F6A2B16725372D8B00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B16625372D8B00A1E4B0 /* main.cpp */; };
+		F6AF519725582B690030B7BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF519625582B690030B7BE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +111,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F6AF519225582B690030B7BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +143,8 @@
 		F6A2B1582536F99A00A1E4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6A2B16425372D8B00A1E4B0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A2B16625372D8B00A1E4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6AF519425582B690030B7BE /* 11. Container With Most Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11. Container With Most Water"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AF519625582B690030B7BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +218,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6AF519125582B690030B7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -270,6 +289,7 @@
 				F642BB2D25524C3800153D40 /* 7. Reverse Integer */,
 				F642BB402552C1A700153D40 /* 9. Palindrome Number */,
 				F642BB542553DA1B00153D40 /* 10. Regular Expression Matching */,
+				F6AF519525582B690030B7BE /* 11. Container With Most Water */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -287,6 +307,7 @@
 				F642BB2C25524C3800153D40 /* 7. Reverse Integer */,
 				F642BB3F2552C1A700153D40 /* 9. Palindrome Number */,
 				F642BB532553DA1B00153D40 /* 10. Regular Expression Matching */,
+				F6AF519425582B690030B7BE /* 11. Container With Most Water */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -321,6 +342,14 @@
 				F6A2B16625372D8B00A1E4B0 /* main.cpp */,
 			);
 			path = "3. Longest Substring Without Repeating Characters";
+			sourceTree = "<group>";
+		};
+		F6AF519525582B690030B7BE /* 11. Container With Most Water */ = {
+			isa = PBXGroup;
+			children = (
+				F6AF519625582B690030B7BE /* main.cpp */,
+			);
+			path = "11. Container With Most Water";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -496,6 +525,23 @@
 			productReference = F6A2B16425372D8B00A1E4B0 /* 3. Longest Substring Without Repeating Characters */;
 			productType = "com.apple.product-type.tool";
 		};
+		F6AF519325582B690030B7BE /* 11. Container With Most Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6AF519A25582B690030B7BE /* Build configuration list for PBXNativeTarget "11. Container With Most Water" */;
+			buildPhases = (
+				F6AF519025582B690030B7BE /* Sources */,
+				F6AF519125582B690030B7BE /* Frameworks */,
+				F6AF519225582B690030B7BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11. Container With Most Water";
+			productName = "11. Container With Most Water";
+			productReference = F6AF519425582B690030B7BE /* 11. Container With Most Water */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -535,6 +581,9 @@
 					F6A2B16325372D8B00A1E4B0 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					F6AF519325582B690030B7BE = {
+						CreatedOnToolsVersion = 12.1;
+					};
 				};
 			};
 			buildConfigurationList = F69311E82497ABA900F132B6 /* Build configuration list for PBXProject "LeetCode" */;
@@ -560,6 +609,7 @@
 				F642BB2B25524C3800153D40 /* 7. Reverse Integer */,
 				F642BB3E2552C1A700153D40 /* 9. Palindrome Number */,
 				F642BB522553DA1B00153D40 /* 10. Regular Expression Matching */,
+				F6AF519325582B690030B7BE /* 11. Container With Most Water */,
 			);
 		};
 /* End PBXProject section */
@@ -642,6 +692,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A2B16725372D8B00A1E4B0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AF519025582B690030B7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6AF519725582B690030B7BE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,6 +993,24 @@
 			};
 			name = Release;
 		};
+		F6AF519825582B690030B7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6AF519925582B690030B7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1033,6 +1109,15 @@
 			buildConfigurations = (
 				F6A2B16925372D8B00A1E4B0 /* Debug */,
 				F6A2B16A25372D8B00A1E4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6AF519A25582B690030B7BE /* Build configuration list for PBXNativeTarget "11. Container With Most Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6AF519825582B690030B7BE /* Debug */,
+				F6AF519925582B690030B7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
