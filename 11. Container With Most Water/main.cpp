@@ -35,7 +35,7 @@ public:
             }else{
                 r--;
             }
-        }   
+        }
         return max;
     }
 };
