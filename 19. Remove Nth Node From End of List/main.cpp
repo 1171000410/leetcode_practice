@@ -26,6 +26,7 @@ using namespace std;
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+        // This solution just beat 100% and 99% c++
         int len = 1;
         ListNode *p = head;
         while (p->next != nullptr) {
@@ -53,6 +54,30 @@ public:
             return head;
         }
     }
+    
+    ListNode* removeNthFromEnd2(ListNode* head, int n) {
+        // A very interesting solution
+        ListNode* node = head, *offsetNode = head;
+        for (int i = 0; i < n; ++i)
+            node = node->next;
+        
+        // if node is NULL n is equal to the length of the linked list and we have to remove the head
+        if (node == NULL)
+            return head->next;
+        
+        while (node->next != NULL) {
+            node = node->next;
+            offsetNode = offsetNode->next;
+        }
+        
+        offsetNode->next = offsetNode->next->next;
+        
+        return head;
+        
+    }
+    
+    
+    
 };
 
 int main(int argc, const char * argv[]) {
