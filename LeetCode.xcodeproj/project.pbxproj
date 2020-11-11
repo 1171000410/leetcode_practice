@@ -12,6 +12,7 @@
 		F642BB2F25524C3800153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB2E25524C3800153D40 /* main.cpp */; };
 		F642BB422552C1A700153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB412552C1A700153D40 /* main.cpp */; };
 		F642BB562553DA1B00153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB552553DA1B00153D40 /* main.cpp */; };
+		F64AC331255AE1950031548D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64AC330255AE1950031548D /* main.cpp */; };
 		F678FE1D254AEA0C00FD275E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F678FE1C254AEA0C00FD275E /* main.cpp */; };
 		F69311F12497ABA900F132B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F69311F02497ABA900F132B6 /* main.cpp */; };
 		F6A2B14C2535CA2E00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B14B2535CA2E00A1E4B0 /* main.cpp */; };
@@ -59,6 +60,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F642BB512553DA1B00153D40 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F64AC32C255AE1950031548D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -143,6 +153,8 @@
 		F642BB412552C1A700153D40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F642BB532553DA1B00153D40 /* 10. Regular Expression Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10. Regular Expression Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F642BB552553DA1B00153D40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F64AC32E255AE1950031548D /* 17. Letter Combinations of a Phone Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17. Letter Combinations of a Phone Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64AC330255AE1950031548D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F678FE1A254AEA0C00FD275E /* 6. ZigZag Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6. ZigZag Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F678FE1C254AEA0C00FD275E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F69311ED2497ABA900F132B6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +201,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F642BB502553DA1B00153D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64AC32B255AE1950031548D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,6 +306,14 @@
 			path = "10. Regular Expression Matching";
 			sourceTree = "<group>";
 		};
+		F64AC32F255AE1950031548D /* 17. Letter Combinations of a Phone Number */ = {
+			isa = PBXGroup;
+			children = (
+				F64AC330255AE1950031548D /* main.cpp */,
+			);
+			path = "17. Letter Combinations of a Phone Number";
+			sourceTree = "<group>";
+		};
 		F678FE1B254AEA0C00FD275E /* 6. ZigZag Conversion */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +337,7 @@
 				F642BB542553DA1B00153D40 /* 10. Regular Expression Matching */,
 				F6AF519525582B690030B7BE /* 11. Container With Most Water */,
 				F6AF51AB2559734B0030B7BE /* 15. 3Sum */,
+				F64AC32F255AE1950031548D /* 17. Letter Combinations of a Phone Number */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -329,6 +357,7 @@
 				F642BB532553DA1B00153D40 /* 10. Regular Expression Matching */,
 				F6AF519425582B690030B7BE /* 11. Container With Most Water */,
 				F6AF51AA2559734B0030B7BE /* 15. 3Sum */,
+				F64AC32E255AE1950031548D /* 17. Letter Combinations of a Phone Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -467,6 +496,23 @@
 			name = "10. Regular Expression Matching";
 			productName = "10. Regular Expression Matching";
 			productReference = F642BB532553DA1B00153D40 /* 10. Regular Expression Matching */;
+			productType = "com.apple.product-type.tool";
+		};
+		F64AC32D255AE1950031548D /* 17. Letter Combinations of a Phone Number */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64AC334255AE1950031548D /* Build configuration list for PBXNativeTarget "17. Letter Combinations of a Phone Number" */;
+			buildPhases = (
+				F64AC32A255AE1950031548D /* Sources */,
+				F64AC32B255AE1950031548D /* Frameworks */,
+				F64AC32C255AE1950031548D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17. Letter Combinations of a Phone Number";
+			productName = "17. Letter Combinations of a Phone Number";
+			productReference = F64AC32E255AE1950031548D /* 17. Letter Combinations of a Phone Number */;
 			productType = "com.apple.product-type.tool";
 		};
 		F678FE19254AEA0C00FD275E /* 6. ZigZag Conversion */ = {
@@ -612,6 +658,9 @@
 					F642BB522553DA1B00153D40 = {
 						CreatedOnToolsVersion = 12.1;
 					};
+					F64AC32D255AE1950031548D = {
+						CreatedOnToolsVersion = 12.1;
+					};
 					F678FE19254AEA0C00FD275E = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -660,6 +709,7 @@
 				F642BB522553DA1B00153D40 /* 10. Regular Expression Matching */,
 				F6AF519325582B690030B7BE /* 11. Container With Most Water */,
 				F6AF51A92559734B0030B7BE /* 15. 3Sum */,
+				F64AC32D255AE1950031548D /* 17. Letter Combinations of a Phone Number */,
 			);
 		};
 /* End PBXProject section */
@@ -702,6 +752,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F642BB562553DA1B00153D40 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64AC32A255AE1950031548D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64AC331255AE1950031548D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,6 +904,24 @@
 			name = Debug;
 		};
 		F642BB592553DA1B00153D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F64AC332255AE1950031548D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F64AC333255AE1950031548D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -1131,6 +1207,15 @@
 			buildConfigurations = (
 				F642BB582553DA1B00153D40 /* Debug */,
 				F642BB592553DA1B00153D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64AC334255AE1950031548D /* Build configuration list for PBXNativeTarget "17. Letter Combinations of a Phone Number" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64AC332255AE1950031548D /* Debug */,
+				F64AC333255AE1950031548D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
