@@ -24,6 +24,7 @@
 		F6F42D16255CC8A10087525F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F42D15255CC8A10087525F /* main.cpp */; };
 		F6F42D30255CCE320087525F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F42D2F255CCE320087525F /* main.cpp */; };
 		F6F42D4B255D478B0087525F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F42D4A255D478B0087525F /* main.cpp */; };
+		F6F42D67255D50830087525F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F42D66255D50830087525F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -180,6 +181,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F6F42D62255D50830087525F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -217,6 +227,8 @@
 		F6F42D2F255CCE320087525F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6F42D48255D478B0087525F /* 22. Generate Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "22. Generate Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F42D4A255D478B0087525F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6F42D64255D50830087525F /* 23. Merge k Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23. Merge k Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F42D66255D50830087525F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +351,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6F42D61255D50830087525F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -426,6 +445,7 @@
 				F6F42D14255CC8A10087525F /* 20. Valid Parentheses */,
 				F6F42D2E255CCE320087525F /* 21. Merge Two Sorted Lists */,
 				F6F42D49255D478B0087525F /* 22. Generate Parentheses */,
+				F6F42D65255D50830087525F /* 23. Merge k Sorted Lists */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -450,6 +470,7 @@
 				F6F42D13255CC8A10087525F /* 20. Valid Parentheses */,
 				F6F42D2D255CCE320087525F /* 21. Merge Two Sorted Lists */,
 				F6F42D48255D478B0087525F /* 22. Generate Parentheses */,
+				F6F42D64255D50830087525F /* 23. Merge k Sorted Lists */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -524,6 +545,14 @@
 				F6F42D4A255D478B0087525F /* main.cpp */,
 			);
 			path = "22. Generate Parentheses";
+			sourceTree = "<group>";
+		};
+		F6F42D65255D50830087525F /* 23. Merge k Sorted Lists */ = {
+			isa = PBXGroup;
+			children = (
+				F6F42D66255D50830087525F /* main.cpp */,
+			);
+			path = "23. Merge k Sorted Lists";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -818,6 +847,23 @@
 			productReference = F6F42D48255D478B0087525F /* 22. Generate Parentheses */;
 			productType = "com.apple.product-type.tool";
 		};
+		F6F42D63255D50830087525F /* 23. Merge k Sorted Lists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F42D68255D50830087525F /* Build configuration list for PBXNativeTarget "23. Merge k Sorted Lists" */;
+			buildPhases = (
+				F6F42D60255D50830087525F /* Sources */,
+				F6F42D61255D50830087525F /* Frameworks */,
+				F6F42D62255D50830087525F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "23. Merge k Sorted Lists";
+			productName = "23. Merge k Sorted Lists";
+			productReference = F6F42D64255D50830087525F /* 23. Merge k Sorted Lists */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -878,6 +924,9 @@
 					F6F42D47255D478B0087525F = {
 						CreatedOnToolsVersion = 12.1;
 					};
+					F6F42D63255D50830087525F = {
+						CreatedOnToolsVersion = 12.1;
+					};
 				};
 			};
 			buildConfigurationList = F69311E82497ABA900F132B6 /* Build configuration list for PBXProject "LeetCode" */;
@@ -910,6 +959,7 @@
 				F6F42D12255CC8A10087525F /* 20. Valid Parentheses */,
 				F6F42D2C255CCE320087525F /* 21. Merge Two Sorted Lists */,
 				F6F42D47255D478B0087525F /* 22. Generate Parentheses */,
+				F6F42D63255D50830087525F /* 23. Merge k Sorted Lists */,
 			);
 		};
 /* End PBXProject section */
@@ -1048,6 +1098,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F42D4B255D478B0087525F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F42D60255D50830087525F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F42D67255D50830087525F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1467,6 +1525,24 @@
 			};
 			name = Release;
 		};
+		F6F42D69255D50830087525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6F42D6A255D50830087525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1628,6 +1704,15 @@
 			buildConfigurations = (
 				F6F42D4D255D478B0087525F /* Debug */,
 				F6F42D4E255D478B0087525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F42D68255D50830087525F /* Build configuration list for PBXNativeTarget "23. Merge k Sorted Lists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F42D69255D50830087525F /* Debug */,
+				F6F42D6A255D50830087525F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
