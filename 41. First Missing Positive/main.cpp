@@ -21,41 +21,20 @@ using namespace std;
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
-        if (nums.size() == 0) {
-            return 0;
-        }
-        if (nums.size() == 1) {
-            if (nums[0] < 0) {
-                return 0;
-            }else{
-                return nums[0] + 1;
+        // Put each number in its right place.
+        int n = nums.size();
+        for (int i = 0; i < n; i++) {
+            while (nums[i] > 0 && nums[i] <= n && nums[i] != nums[nums[i] - 1]) {
+                swap(nums[i], nums[nums[i] -1]);
             }
         }
         
-        
-        int min = INT32_MAX;
-        int sec_min = INT32_MAX;
-        int max = -1;
-        
-        for (int i = 0 ; i < nums.size(); i++) {
-            if (nums[i] >= 0) {
-                if (nums[i] < min) {
-                    sec_min = min;
-                    min = nums[i];
-                }else if(nums[i] < sec_min){
-                    sec_min = nums[i];
-                }
-                max = nums[i] > max ? nums[i] : max;
+        for (int i = 0; i < n; i++) {
+            if (nums[i] != i+1) {
+                return i+1;
             }
         }
-        
-        if (sec_min - min <= 1 && min == 0) {
-            return max +1;
-        }
-        if (sec_min - min > 1) {
-            return sec_min - 1;
-        }
-        return min - 1;
+        return n+1;
     }
 };
 
