@@ -16,6 +16,7 @@
 		F64AC349255B71940031548D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64AC348255B71940031548D /* main.cpp */; };
 		F678FE1D254AEA0C00FD275E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F678FE1C254AEA0C00FD275E /* main.cpp */; };
 		F679C95225613EDB00463EB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F679C95125613EDB00463EB0 /* main.cpp */; };
+		F679C97225620EE500463EB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F679C97125620EE500463EB0 /* main.cpp */; };
 		F69311F12497ABA900F132B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F69311F02497ABA900F132B6 /* main.cpp */; };
 		F6A2B14C2535CA2E00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B14B2535CA2E00A1E4B0 /* main.cpp */; };
 		F6A2B1592536F99A00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B1582536F99A00A1E4B0 /* main.cpp */; };
@@ -104,6 +105,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F679C94D25613EDB00463EB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F679C96D25620EE500463EB0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -241,6 +251,8 @@
 		F678FE1C254AEA0C00FD275E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F679C94F25613EDB00463EB0 /* 41. First Missing Positive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "41. First Missing Positive"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F679C95125613EDB00463EB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F679C96F25620EE500463EB0 /* 42. Trapping Rain Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "42. Trapping Rain Water"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F679C97125620EE500463EB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F69311ED2497ABA900F132B6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69311F02497ABA900F132B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6A2B1492535CA2E00A1E4B0 /* 1. Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1. Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -325,6 +337,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F679C94C25613EDB00463EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F679C96C25620EE500463EB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -490,6 +509,14 @@
 			path = "41. First Missing Positive";
 			sourceTree = "<group>";
 		};
+		F679C97025620EE500463EB0 /* 42. Trapping Rain Water */ = {
+			isa = PBXGroup;
+			children = (
+				F679C97125620EE500463EB0 /* main.cpp */,
+			);
+			path = "42. Trapping Rain Water";
+			sourceTree = "<group>";
+		};
 		F69311E42497ABA900F132B6 = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +541,7 @@
 				F6F42D82255D78680087525F /* 32. Longest Valid Parentheses */,
 				F6F42DA0255E34080087525F /* 33. Search in Rotated Sorted Array */,
 				F679C95025613EDB00463EB0 /* 41. First Missing Positive */,
+				F679C97025620EE500463EB0 /* 42. Trapping Rain Water */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -542,6 +570,7 @@
 				F6F42D81255D78680087525F /* 32. Longest Valid Parentheses */,
 				F6F42D9F255E34080087525F /* 33. Search in Rotated Sorted Array */,
 				F679C94F25613EDB00463EB0 /* 41. First Missing Positive */,
+				F679C96F25620EE500463EB0 /* 42. Trapping Rain Water */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -798,6 +827,23 @@
 			productReference = F679C94F25613EDB00463EB0 /* 41. First Missing Positive */;
 			productType = "com.apple.product-type.tool";
 		};
+		F679C96E25620EE500463EB0 /* 42. Trapping Rain Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F679C97325620EE500463EB0 /* Build configuration list for PBXNativeTarget "42. Trapping Rain Water" */;
+			buildPhases = (
+				F679C96B25620EE500463EB0 /* Sources */,
+				F679C96C25620EE500463EB0 /* Frameworks */,
+				F679C96D25620EE500463EB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "42. Trapping Rain Water";
+			productName = "42. Trapping Rain Water";
+			productReference = F679C96F25620EE500463EB0 /* 42. Trapping Rain Water */;
+			productType = "com.apple.product-type.tool";
+		};
 		F69311EC2497ABA900F132B6 /* LeetCode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F69311F42497ABA900F132B6 /* Build configuration list for PBXNativeTarget "LeetCode" */;
@@ -1038,6 +1084,9 @@
 					F679C94E25613EDB00463EB0 = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					F679C96E25620EE500463EB0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					F69311EC2497ABA900F132B6 = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -1110,6 +1159,7 @@
 				F6F42D80255D78680087525F /* 32. Longest Valid Parentheses */,
 				F6F42D9E255E34080087525F /* 33. Search in Rotated Sorted Array */,
 				F679C94E25613EDB00463EB0 /* 41. First Missing Positive */,
+				F679C96E25620EE500463EB0 /* 42. Trapping Rain Water */,
 			);
 		};
 /* End PBXProject section */
@@ -1184,6 +1234,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F679C95225613EDB00463EB0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F679C96B25620EE500463EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F679C97225620EE500463EB0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1441,6 +1499,26 @@
 			name = Debug;
 		};
 		F679C95425613EDB00463EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F679C97425620EE500463EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F679C97525620EE500463EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -1853,6 +1931,15 @@
 			buildConfigurations = (
 				F679C95325613EDB00463EB0 /* Debug */,
 				F679C95425613EDB00463EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F679C97325620EE500463EB0 /* Build configuration list for PBXNativeTarget "42. Trapping Rain Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F679C97425620EE500463EB0 /* Debug */,
+				F679C97525620EE500463EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
