@@ -22,6 +22,7 @@
 		F6A2B14C2535CA2E00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B14B2535CA2E00A1E4B0 /* main.cpp */; };
 		F6A2B1592536F99A00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B1582536F99A00A1E4B0 /* main.cpp */; };
 		F6A2B16725372D8B00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B16625372D8B00A1E4B0 /* main.cpp */; };
+		F6A4C61D2563FAFA00AD0F91 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A4C61C2563FAFA00AD0F91 /* main.cpp */; };
 		F6AF519725582B690030B7BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF519625582B690030B7BE /* main.cpp */; };
 		F6AF51AD2559734B0030B7BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF51AC2559734B0030B7BE /* main.cpp */; };
 		F6F42D16255CC8A10087525F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F42D15255CC8A10087525F /* main.cpp */; };
@@ -168,6 +169,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F6A4C6182563FAFA00AD0F91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F6AF519225582B690030B7BE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,6 +283,8 @@
 		F6A2B1582536F99A00A1E4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6A2B16425372D8B00A1E4B0 /* 3. Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3. Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A2B16625372D8B00A1E4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6A4C61A2563FAFA00AD0F91 /* 48. Rotate Image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "48. Rotate Image"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A4C61C2563FAFA00AD0F91 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6AF519425582B690030B7BE /* 11. Container With Most Water */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11. Container With Most Water"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AF519625582B690030B7BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6AF51AA2559734B0030B7BE /* 15. 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15. 3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -391,6 +403,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F6A2B16125372D8B00A1E4B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A4C6172563FAFA00AD0F91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -570,6 +589,7 @@
 				F679C95025613EDB00463EB0 /* 41. First Missing Positive */,
 				F679C97025620EE500463EB0 /* 42. Trapping Rain Water */,
 				F679C99125621A4F00463EB0 /* 46. Permutations */,
+				F6A4C61B2563FAFA00AD0F91 /* 48. Rotate Image */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -600,6 +620,7 @@
 				F679C94F25613EDB00463EB0 /* 41. First Missing Positive */,
 				F679C96F25620EE500463EB0 /* 42. Trapping Rain Water */,
 				F679C99025621A4F00463EB0 /* 46. Permutations */,
+				F6A4C61A2563FAFA00AD0F91 /* 48. Rotate Image */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -634,6 +655,14 @@
 				F6A2B16625372D8B00A1E4B0 /* main.cpp */,
 			);
 			path = "3. Longest Substring Without Repeating Characters";
+			sourceTree = "<group>";
+		};
+		F6A4C61B2563FAFA00AD0F91 /* 48. Rotate Image */ = {
+			isa = PBXGroup;
+			children = (
+				F6A4C61C2563FAFA00AD0F91 /* main.cpp */,
+			);
+			path = "48. Rotate Image";
 			sourceTree = "<group>";
 		};
 		F6AF519525582B690030B7BE /* 11. Container With Most Water */ = {
@@ -958,6 +987,23 @@
 			productReference = F6A2B16425372D8B00A1E4B0 /* 3. Longest Substring Without Repeating Characters */;
 			productType = "com.apple.product-type.tool";
 		};
+		F6A4C6192563FAFA00AD0F91 /* 48. Rotate Image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A4C6202563FAFA00AD0F91 /* Build configuration list for PBXNativeTarget "48. Rotate Image" */;
+			buildPhases = (
+				F6A4C6162563FAFA00AD0F91 /* Sources */,
+				F6A4C6172563FAFA00AD0F91 /* Frameworks */,
+				F6A4C6182563FAFA00AD0F91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "48. Rotate Image";
+			productName = "48. Rotate Image";
+			productReference = F6A4C61A2563FAFA00AD0F91 /* 48. Rotate Image */;
+			productType = "com.apple.product-type.tool";
+		};
 		F6AF519325582B690030B7BE /* 11. Container With Most Water */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6AF519A25582B690030B7BE /* Build configuration list for PBXNativeTarget "11. Container With Most Water" */;
@@ -1148,6 +1194,9 @@
 					F6A2B16325372D8B00A1E4B0 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					F6A4C6192563FAFA00AD0F91 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					F6AF519325582B690030B7BE = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -1210,6 +1259,7 @@
 				F679C94E25613EDB00463EB0 /* 41. First Missing Positive */,
 				F679C96E25620EE500463EB0 /* 42. Trapping Rain Water */,
 				F679C98F25621A4F00463EB0 /* 46. Permutations */,
+				F6A4C6192563FAFA00AD0F91 /* 48. Rotate Image */,
 			);
 		};
 /* End PBXProject section */
@@ -1332,6 +1382,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A2B16725372D8B00A1E4B0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A4C6162563FAFA00AD0F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A4C61D2563FAFA00AD0F91 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1785,6 +1843,26 @@
 			};
 			name = Release;
 		};
+		F6A4C61E2563FAFA00AD0F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6A4C61F2563FAFA00AD0F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F6AF519825582B690030B7BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2072,6 +2150,15 @@
 			buildConfigurations = (
 				F6A2B16925372D8B00A1E4B0 /* Debug */,
 				F6A2B16A25372D8B00A1E4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A4C6202563FAFA00AD0F91 /* Build configuration list for PBXNativeTarget "48. Rotate Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A4C61E2563FAFA00AD0F91 /* Debug */,
+				F6A4C61F2563FAFA00AD0F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
