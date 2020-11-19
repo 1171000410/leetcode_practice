@@ -21,7 +21,22 @@ using namespace std;
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        
+        // greedy
+        if (nums.size() == 1) {
+            return true;
+        }
+        int last = nums.size() -1;
+        int temp = last;
+        int flag = 0;
+        for (int i = last-1; i >=0 ; i--) {
+            if(nums[i] >= temp-i){
+                temp = i;
+            }
+            if (temp == 0) {
+                return true;
+            }
+        }
+        return false;
     }
 };
 
