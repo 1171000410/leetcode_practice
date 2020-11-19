@@ -19,6 +19,8 @@
 		F679C97225620EE500463EB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F679C97125620EE500463EB0 /* main.cpp */; };
 		F679C99325621A4F00463EB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F679C99225621A4F00463EB0 /* main.cpp */; };
 		F69311F12497ABA900F132B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F69311F02497ABA900F132B6 /* main.cpp */; };
+		F698CCF025669F2700270E98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F698CCEF25669F2700270E98 /* main.cpp */; };
+		F698CD142566A63C00270E98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F698CD132566A63C00270E98 /* main.cpp */; };
 		F6A2B14C2535CA2E00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B14B2535CA2E00A1E4B0 /* main.cpp */; };
 		F6A2B1592536F99A00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B1582536F99A00A1E4B0 /* main.cpp */; };
 		F6A2B16725372D8B00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B16625372D8B00A1E4B0 /* main.cpp */; };
@@ -134,6 +136,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F69311EB2497ABA900F132B6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F698CCEB25669F2700270E98 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F698CD0F2566A63C00270E98 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -277,6 +297,10 @@
 		F679C99225621A4F00463EB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F69311ED2497ABA900F132B6 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69311F02497ABA900F132B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F698CCED25669F2700270E98 /* 49. Group Anagrams */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "49. Group Anagrams"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F698CCEF25669F2700270E98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F698CD112566A63C00270E98 /* 55. Jump Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "55. Jump Game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F698CD132566A63C00270E98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6A2B1492535CA2E00A1E4B0 /* 1. Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1. Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A2B14B2535CA2E00A1E4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6A2B1562536F99A00A1E4B0 /* 2. Add Two Numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2. Add Two Numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -382,6 +406,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F69311EA2497ABA900F132B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F698CCEA25669F2700270E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F698CD0E2566A63C00270E98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -590,6 +628,8 @@
 				F679C97025620EE500463EB0 /* 42. Trapping Rain Water */,
 				F679C99125621A4F00463EB0 /* 46. Permutations */,
 				F6A4C61B2563FAFA00AD0F91 /* 48. Rotate Image */,
+				F698CCEE25669F2700270E98 /* 49. Group Anagrams */,
+				F698CD122566A63C00270E98 /* 55. Jump Game */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -621,6 +661,8 @@
 				F679C96F25620EE500463EB0 /* 42. Trapping Rain Water */,
 				F679C99025621A4F00463EB0 /* 46. Permutations */,
 				F6A4C61A2563FAFA00AD0F91 /* 48. Rotate Image */,
+				F698CCED25669F2700270E98 /* 49. Group Anagrams */,
+				F698CD112566A63C00270E98 /* 55. Jump Game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -631,6 +673,22 @@
 				F69311F02497ABA900F132B6 /* main.cpp */,
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		F698CCEE25669F2700270E98 /* 49. Group Anagrams */ = {
+			isa = PBXGroup;
+			children = (
+				F698CCEF25669F2700270E98 /* main.cpp */,
+			);
+			path = "49. Group Anagrams";
+			sourceTree = "<group>";
+		};
+		F698CD122566A63C00270E98 /* 55. Jump Game */ = {
+			isa = PBXGroup;
+			children = (
+				F698CD132566A63C00270E98 /* main.cpp */,
+			);
+			path = "55. Jump Game";
 			sourceTree = "<group>";
 		};
 		F6A2B14A2535CA2E00A1E4B0 /* 1. Two Sum */ = {
@@ -936,6 +994,40 @@
 			productReference = F69311ED2497ABA900F132B6 /* LeetCode */;
 			productType = "com.apple.product-type.tool";
 		};
+		F698CCEC25669F2700270E98 /* 49. Group Anagrams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F698CCF325669F2700270E98 /* Build configuration list for PBXNativeTarget "49. Group Anagrams" */;
+			buildPhases = (
+				F698CCE925669F2700270E98 /* Sources */,
+				F698CCEA25669F2700270E98 /* Frameworks */,
+				F698CCEB25669F2700270E98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "49. Group Anagrams";
+			productName = "49. Group Anagrams";
+			productReference = F698CCED25669F2700270E98 /* 49. Group Anagrams */;
+			productType = "com.apple.product-type.tool";
+		};
+		F698CD102566A63C00270E98 /* 55. Jump Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F698CD152566A63C00270E98 /* Build configuration list for PBXNativeTarget "55. Jump Game" */;
+			buildPhases = (
+				F698CD0D2566A63C00270E98 /* Sources */,
+				F698CD0E2566A63C00270E98 /* Frameworks */,
+				F698CD0F2566A63C00270E98 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "55. Jump Game";
+			productName = "55. Jump Game";
+			productReference = F698CD112566A63C00270E98 /* 55. Jump Game */;
+			productType = "com.apple.product-type.tool";
+		};
 		F6A2B1482535CA2E00A1E4B0 /* 1. Two Sum */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6A2B14F2535CA2E00A1E4B0 /* Build configuration list for PBXNativeTarget "1. Two Sum" */;
@@ -1185,6 +1277,12 @@
 					F69311EC2497ABA900F132B6 = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					F698CCEC25669F2700270E98 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F698CD102566A63C00270E98 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					F6A2B1482535CA2E00A1E4B0 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -1260,6 +1358,8 @@
 				F679C96E25620EE500463EB0 /* 42. Trapping Rain Water */,
 				F679C98F25621A4F00463EB0 /* 46. Permutations */,
 				F6A4C6192563FAFA00AD0F91 /* 48. Rotate Image */,
+				F698CCEC25669F2700270E98 /* 49. Group Anagrams */,
+				F698CD102566A63C00270E98 /* 55. Jump Game */,
 			);
 		};
 /* End PBXProject section */
@@ -1358,6 +1458,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69311F12497ABA900F132B6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F698CCE925669F2700270E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F698CCF025669F2700270E98 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F698CD0D2566A63C00270E98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F698CD142566A63C00270E98 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1789,6 +1905,46 @@
 			};
 			name = Release;
 		};
+		F698CCF125669F2700270E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F698CCF225669F2700270E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F698CD162566A63C00270E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F698CD172566A63C00270E98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F6A2B14D2535CA2E00A1E4B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2123,6 +2279,24 @@
 			buildConfigurations = (
 				F69311F52497ABA900F132B6 /* Debug */,
 				F69311F62497ABA900F132B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F698CCF325669F2700270E98 /* Build configuration list for PBXNativeTarget "49. Group Anagrams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F698CCF125669F2700270E98 /* Debug */,
+				F698CCF225669F2700270E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F698CD152566A63C00270E98 /* Build configuration list for PBXNativeTarget "55. Jump Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F698CD162566A63C00270E98 /* Debug */,
+				F698CD172566A63C00270E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
