@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F603620725389F00006ECC71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F603620625389F00006ECC71 /* main.cpp */; };
 		F60362172538A4A7006ECC71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F60362162538A4A7006ECC71 /* main.cpp */; };
+		F618BFF1256BF89500840DEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F618BFF0256BF89500840DEC /* main.cpp */; };
 		F642BB2F25524C3800153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB2E25524C3800153D40 /* main.cpp */; };
 		F642BB422552C1A700153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB412552C1A700153D40 /* main.cpp */; };
 		F642BB562553DA1B00153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB552553DA1B00153D40 /* main.cpp */; };
@@ -46,6 +47,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F60362122538A4A6006ECC71 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F618BFEC256BF89500840DEC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -277,6 +287,8 @@
 		F603620625389F00006ECC71 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F60362142538A4A6006ECC71 /* 5. Longest Palindromic Substring */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Longest Palindromic Substring"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60362162538A4A7006ECC71 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F618BFEE256BF89500840DEC /* 56. Merge Intervals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "56. Merge Intervals"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F618BFF0256BF89500840DEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F642BB2C25524C3800153D40 /* 7. Reverse Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7. Reverse Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F642BB2E25524C3800153D40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F642BB3F2552C1A700153D40 /* 9. Palindrome Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9. Palindrome Number"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -336,6 +348,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F60362112538A4A6006ECC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F618BFEB256BF89500840DEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -529,6 +548,14 @@
 			path = "5. Longest Palindromic Substring";
 			sourceTree = "<group>";
 		};
+		F618BFEF256BF89500840DEC /* 56. Merge Intervals */ = {
+			isa = PBXGroup;
+			children = (
+				F618BFF0256BF89500840DEC /* main.cpp */,
+			);
+			path = "56. Merge Intervals";
+			sourceTree = "<group>";
+		};
 		F642BB2D25524C3800153D40 /* 7. Reverse Integer */ = {
 			isa = PBXGroup;
 			children = (
@@ -630,6 +657,7 @@
 				F6A4C61B2563FAFA00AD0F91 /* 48. Rotate Image */,
 				F698CCEE25669F2700270E98 /* 49. Group Anagrams */,
 				F698CD122566A63C00270E98 /* 55. Jump Game */,
+				F618BFEF256BF89500840DEC /* 56. Merge Intervals */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -663,6 +691,7 @@
 				F6A4C61A2563FAFA00AD0F91 /* 48. Rotate Image */,
 				F698CCED25669F2700270E98 /* 49. Group Anagrams */,
 				F698CD112566A63C00270E98 /* 55. Jump Game */,
+				F618BFEE256BF89500840DEC /* 56. Merge Intervals */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -822,6 +851,23 @@
 			name = "5. Longest Palindromic Substring";
 			productName = "5. Longest Palindromic Substring";
 			productReference = F60362142538A4A6006ECC71 /* 5. Longest Palindromic Substring */;
+			productType = "com.apple.product-type.tool";
+		};
+		F618BFED256BF89500840DEC /* 56. Merge Intervals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F618BFF4256BF89500840DEC /* Build configuration list for PBXNativeTarget "56. Merge Intervals" */;
+			buildPhases = (
+				F618BFEA256BF89500840DEC /* Sources */,
+				F618BFEB256BF89500840DEC /* Frameworks */,
+				F618BFEC256BF89500840DEC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "56. Merge Intervals";
+			productName = "56. Merge Intervals";
+			productReference = F618BFEE256BF89500840DEC /* 56. Merge Intervals */;
 			productType = "com.apple.product-type.tool";
 		};
 		F642BB2B25524C3800153D40 /* 7. Reverse Integer */ = {
@@ -1247,6 +1293,9 @@
 					F60362132538A4A6006ECC71 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					F618BFED256BF89500840DEC = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					F642BB2B25524C3800153D40 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -1360,6 +1409,7 @@
 				F6A4C6192563FAFA00AD0F91 /* 48. Rotate Image */,
 				F698CCEC25669F2700270E98 /* 49. Group Anagrams */,
 				F698CD102566A63C00270E98 /* 55. Jump Game */,
+				F618BFED256BF89500840DEC /* 56. Merge Intervals */,
 			);
 		};
 /* End PBXProject section */
@@ -1378,6 +1428,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60362172538A4A7006ECC71 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F618BFEA256BF89500840DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F618BFF1256BF89500840DEC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1608,6 +1666,26 @@
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F618BFF2256BF89500840DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F618BFF3256BF89500840DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2180,6 +2258,15 @@
 			buildConfigurations = (
 				F60362192538A4A7006ECC71 /* Debug */,
 				F603621A2538A4A7006ECC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F618BFF4256BF89500840DEC /* Build configuration list for PBXNativeTarget "56. Merge Intervals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F618BFF2256BF89500840DEC /* Debug */,
+				F618BFF3256BF89500840DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
