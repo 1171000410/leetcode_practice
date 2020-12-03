@@ -10,6 +10,7 @@
 		F603620725389F00006ECC71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F603620625389F00006ECC71 /* main.cpp */; };
 		F60362172538A4A7006ECC71 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F60362162538A4A7006ECC71 /* main.cpp */; };
 		F618BFF1256BF89500840DEC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F618BFF0256BF89500840DEC /* main.cpp */; };
+		F62CAB94257909F0005FA003 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F62CAB93257909F0005FA003 /* main.cpp */; };
 		F642BB2F25524C3800153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB2E25524C3800153D40 /* main.cpp */; };
 		F642BB422552C1A700153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB412552C1A700153D40 /* main.cpp */; };
 		F642BB562553DA1B00153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB552553DA1B00153D40 /* main.cpp */; };
@@ -56,6 +57,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F618BFEC256BF89500840DEC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F62CAB8F257909F0005FA003 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -289,6 +299,8 @@
 		F60362162538A4A7006ECC71 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F618BFEE256BF89500840DEC /* 56. Merge Intervals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "56. Merge Intervals"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F618BFF0256BF89500840DEC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F62CAB91257909F0005FA003 /* 70. Climbing Stairs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "70. Climbing Stairs"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62CAB93257909F0005FA003 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F642BB2C25524C3800153D40 /* 7. Reverse Integer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7. Reverse Integer"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F642BB2E25524C3800153D40 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F642BB3F2552C1A700153D40 /* 9. Palindrome Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9. Palindrome Number"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -355,6 +367,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F618BFEB256BF89500840DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62CAB8E257909F0005FA003 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -556,6 +575,14 @@
 			path = "56. Merge Intervals";
 			sourceTree = "<group>";
 		};
+		F62CAB92257909F0005FA003 /* 70. Climbing Stairs */ = {
+			isa = PBXGroup;
+			children = (
+				F62CAB93257909F0005FA003 /* main.cpp */,
+			);
+			path = "70. Climbing Stairs";
+			sourceTree = "<group>";
+		};
 		F642BB2D25524C3800153D40 /* 7. Reverse Integer */ = {
 			isa = PBXGroup;
 			children = (
@@ -658,6 +685,7 @@
 				F698CCEE25669F2700270E98 /* 49. Group Anagrams */,
 				F698CD122566A63C00270E98 /* 55. Jump Game */,
 				F618BFEF256BF89500840DEC /* 56. Merge Intervals */,
+				F62CAB92257909F0005FA003 /* 70. Climbing Stairs */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -692,6 +720,7 @@
 				F698CCED25669F2700270E98 /* 49. Group Anagrams */,
 				F698CD112566A63C00270E98 /* 55. Jump Game */,
 				F618BFEE256BF89500840DEC /* 56. Merge Intervals */,
+				F62CAB91257909F0005FA003 /* 70. Climbing Stairs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -868,6 +897,23 @@
 			name = "56. Merge Intervals";
 			productName = "56. Merge Intervals";
 			productReference = F618BFEE256BF89500840DEC /* 56. Merge Intervals */;
+			productType = "com.apple.product-type.tool";
+		};
+		F62CAB90257909F0005FA003 /* 70. Climbing Stairs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62CAB97257909F0005FA003 /* Build configuration list for PBXNativeTarget "70. Climbing Stairs" */;
+			buildPhases = (
+				F62CAB8D257909F0005FA003 /* Sources */,
+				F62CAB8E257909F0005FA003 /* Frameworks */,
+				F62CAB8F257909F0005FA003 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "70. Climbing Stairs";
+			productName = "70. Climbing Stairs";
+			productReference = F62CAB91257909F0005FA003 /* 70. Climbing Stairs */;
 			productType = "com.apple.product-type.tool";
 		};
 		F642BB2B25524C3800153D40 /* 7. Reverse Integer */ = {
@@ -1296,6 +1342,9 @@
 					F618BFED256BF89500840DEC = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					F62CAB90257909F0005FA003 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					F642BB2B25524C3800153D40 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -1410,6 +1459,7 @@
 				F698CCEC25669F2700270E98 /* 49. Group Anagrams */,
 				F698CD102566A63C00270E98 /* 55. Jump Game */,
 				F618BFED256BF89500840DEC /* 56. Merge Intervals */,
+				F62CAB90257909F0005FA003 /* 70. Climbing Stairs */,
 			);
 		};
 /* End PBXProject section */
@@ -1436,6 +1486,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F618BFF1256BF89500840DEC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62CAB8D257909F0005FA003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62CAB94257909F0005FA003 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1681,6 +1739,26 @@
 			name = Debug;
 		};
 		F618BFF3256BF89500840DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F62CAB95257909F0005FA003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F62CAB96257909F0005FA003 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -2267,6 +2345,15 @@
 			buildConfigurations = (
 				F618BFF2256BF89500840DEC /* Debug */,
 				F618BFF3256BF89500840DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62CAB97257909F0005FA003 /* Build configuration list for PBXNativeTarget "70. Climbing Stairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62CAB95257909F0005FA003 /* Debug */,
+				F62CAB96257909F0005FA003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
