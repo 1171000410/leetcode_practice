@@ -23,6 +23,7 @@
 		F69311F12497ABA900F132B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F69311F02497ABA900F132B6 /* main.cpp */; };
 		F698CCF025669F2700270E98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F698CCEF25669F2700270E98 /* main.cpp */; };
 		F698CD142566A63C00270E98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F698CD132566A63C00270E98 /* main.cpp */; };
+		F69FBA0E258B05B40088C113 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F69FBA0D258B05B40088C113 /* main.cpp */; };
 		F6A2B14C2535CA2E00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B14B2535CA2E00A1E4B0 /* main.cpp */; };
 		F6A2B1592536F99A00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B1582536F99A00A1E4B0 /* main.cpp */; };
 		F6A2B16725372D8B00A1E4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A2B16625372D8B00A1E4B0 /* main.cpp */; };
@@ -182,6 +183,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F69FBA09258B05B40088C113 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F6A2B1472535CA2E00A1E4B0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,6 +335,8 @@
 		F698CCEF25669F2700270E98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F698CD112566A63C00270E98 /* 55. Jump Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "55. Jump Game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F698CD132566A63C00270E98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F69FBA0B258B05B40088C113 /* 64. Minimum Path Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "64. Minimum Path Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69FBA0D258B05B40088C113 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6A2B1492535CA2E00A1E4B0 /* 1. Two Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1. Two Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A2B14B2535CA2E00A1E4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6A2B1562536F99A00A1E4B0 /* 2. Add Two Numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2. Add Two Numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -458,6 +470,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F698CD0E2566A63C00270E98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69FBA08258B05B40088C113 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -686,6 +705,7 @@
 				F698CD122566A63C00270E98 /* 55. Jump Game */,
 				F618BFEF256BF89500840DEC /* 56. Merge Intervals */,
 				F62CAB92257909F0005FA003 /* 70. Climbing Stairs */,
+				F69FBA0C258B05B40088C113 /* 64. Minimum Path Sum */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -721,6 +741,7 @@
 				F698CD112566A63C00270E98 /* 55. Jump Game */,
 				F618BFEE256BF89500840DEC /* 56. Merge Intervals */,
 				F62CAB91257909F0005FA003 /* 70. Climbing Stairs */,
+				F69FBA0B258B05B40088C113 /* 64. Minimum Path Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -747,6 +768,14 @@
 				F698CD132566A63C00270E98 /* main.cpp */,
 			);
 			path = "55. Jump Game";
+			sourceTree = "<group>";
+		};
+		F69FBA0C258B05B40088C113 /* 64. Minimum Path Sum */ = {
+			isa = PBXGroup;
+			children = (
+				F69FBA0D258B05B40088C113 /* main.cpp */,
+			);
+			path = "64. Minimum Path Sum";
 			sourceTree = "<group>";
 		};
 		F6A2B14A2535CA2E00A1E4B0 /* 1. Two Sum */ = {
@@ -1120,6 +1149,23 @@
 			productReference = F698CD112566A63C00270E98 /* 55. Jump Game */;
 			productType = "com.apple.product-type.tool";
 		};
+		F69FBA0A258B05B40088C113 /* 64. Minimum Path Sum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69FBA11258B05B40088C113 /* Build configuration list for PBXNativeTarget "64. Minimum Path Sum" */;
+			buildPhases = (
+				F69FBA07258B05B40088C113 /* Sources */,
+				F69FBA08258B05B40088C113 /* Frameworks */,
+				F69FBA09258B05B40088C113 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "64. Minimum Path Sum";
+			productName = "64. Minimum Path Sum";
+			productReference = F69FBA0B258B05B40088C113 /* 64. Minimum Path Sum */;
+			productType = "com.apple.product-type.tool";
+		};
 		F6A2B1482535CA2E00A1E4B0 /* 1. Two Sum */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6A2B14F2535CA2E00A1E4B0 /* Build configuration list for PBXNativeTarget "1. Two Sum" */;
@@ -1381,6 +1427,9 @@
 					F698CD102566A63C00270E98 = {
 						CreatedOnToolsVersion = 12.2;
 					};
+					F69FBA0A258B05B40088C113 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					F6A2B1482535CA2E00A1E4B0 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -1460,6 +1509,7 @@
 				F698CD102566A63C00270E98 /* 55. Jump Game */,
 				F618BFED256BF89500840DEC /* 56. Merge Intervals */,
 				F62CAB90257909F0005FA003 /* 70. Climbing Stairs */,
+				F69FBA0A258B05B40088C113 /* 64. Minimum Path Sum */,
 			);
 		};
 /* End PBXProject section */
@@ -1590,6 +1640,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F698CD142566A63C00270E98 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69FBA07258B05B40088C113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69FBA0E258B05B40088C113 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2101,6 +2159,26 @@
 			};
 			name = Release;
 		};
+		F69FBA0F258B05B40088C113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F69FBA10258B05B40088C113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F6A2B14D2535CA2E00A1E4B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2471,6 +2549,15 @@
 			buildConfigurations = (
 				F698CD162566A63C00270E98 /* Debug */,
 				F698CD172566A63C00270E98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69FBA11258B05B40088C113 /* Build configuration list for PBXNativeTarget "64. Minimum Path Sum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69FBA0F258B05B40088C113 /* Debug */,
+				F69FBA10258B05B40088C113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
