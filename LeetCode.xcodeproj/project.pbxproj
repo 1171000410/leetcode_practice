@@ -30,6 +30,7 @@
 		F6A4C61D2563FAFA00AD0F91 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6A4C61C2563FAFA00AD0F91 /* main.cpp */; };
 		F6AF519725582B690030B7BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF519625582B690030B7BE /* main.cpp */; };
 		F6AF51AD2559734B0030B7BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6AF51AC2559734B0030B7BE /* main.cpp */; };
+		F6D5D78D259036350027F03B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6D5D78C259036350027F03B /* main.cpp */; };
 		F6F42D16255CC8A10087525F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F42D15255CC8A10087525F /* main.cpp */; };
 		F6F42D30255CCE320087525F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F42D2F255CCE320087525F /* main.cpp */; };
 		F6F42D4B255D478B0087525F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6F42D4A255D478B0087525F /* main.cpp */; };
@@ -246,6 +247,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F6D5D788259036350027F03B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F6F42D11255CC8A10087525F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +359,8 @@
 		F6AF519625582B690030B7BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6AF51AA2559734B0030B7BE /* 15. 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15. 3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6AF51AC2559734B0030B7BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F6D5D78A259036350027F03B /* 75. Sort Colors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "75. Sort Colors"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D5D78C259036350027F03B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6F42D13255CC8A10087525F /* 20. Valid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "20. Valid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F42D15255CC8A10087525F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6F42D2D255CCE320087525F /* 21. Merge Two Sorted Lists */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "21. Merge Two Sorted Lists"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -519,6 +531,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F6AF51A72559734B0030B7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D5D787259036350027F03B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -706,6 +725,7 @@
 				F618BFEF256BF89500840DEC /* 56. Merge Intervals */,
 				F62CAB92257909F0005FA003 /* 70. Climbing Stairs */,
 				F69FBA0C258B05B40088C113 /* 64. Minimum Path Sum */,
+				F6D5D78B259036350027F03B /* 75. Sort Colors */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -742,6 +762,7 @@
 				F618BFEE256BF89500840DEC /* 56. Merge Intervals */,
 				F62CAB91257909F0005FA003 /* 70. Climbing Stairs */,
 				F69FBA0B258B05B40088C113 /* 64. Minimum Path Sum */,
+				F6D5D78A259036350027F03B /* 75. Sort Colors */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -824,6 +845,14 @@
 				F6AF51AC2559734B0030B7BE /* main.cpp */,
 			);
 			path = "15. 3Sum";
+			sourceTree = "<group>";
+		};
+		F6D5D78B259036350027F03B /* 75. Sort Colors */ = {
+			isa = PBXGroup;
+			children = (
+				F6D5D78C259036350027F03B /* main.cpp */,
+			);
+			path = "75. Sort Colors";
 			sourceTree = "<group>";
 		};
 		F6F42D14255CC8A10087525F /* 20. Valid Parentheses */ = {
@@ -1268,6 +1297,23 @@
 			productReference = F6AF51AA2559734B0030B7BE /* 15. 3Sum */;
 			productType = "com.apple.product-type.tool";
 		};
+		F6D5D789259036350027F03B /* 75. Sort Colors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D5D790259036350027F03B /* Build configuration list for PBXNativeTarget "75. Sort Colors" */;
+			buildPhases = (
+				F6D5D786259036350027F03B /* Sources */,
+				F6D5D787259036350027F03B /* Frameworks */,
+				F6D5D788259036350027F03B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "75. Sort Colors";
+			productName = "75. Sort Colors";
+			productReference = F6D5D78A259036350027F03B /* 75. Sort Colors */;
+			productType = "com.apple.product-type.tool";
+		};
 		F6F42D12255CC8A10087525F /* 20. Valid Parentheses */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F42D19255CC8A10087525F /* Build configuration list for PBXNativeTarget "20. Valid Parentheses" */;
@@ -1448,6 +1494,9 @@
 					F6AF51A92559734B0030B7BE = {
 						CreatedOnToolsVersion = 12.1;
 					};
+					F6D5D789259036350027F03B = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					F6F42D12255CC8A10087525F = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -1510,6 +1559,7 @@
 				F618BFED256BF89500840DEC /* 56. Merge Intervals */,
 				F62CAB90257909F0005FA003 /* 70. Climbing Stairs */,
 				F69FBA0A258B05B40088C113 /* 64. Minimum Path Sum */,
+				F6D5D789259036350027F03B /* 75. Sort Colors */,
 			);
 		};
 /* End PBXProject section */
@@ -1696,6 +1746,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6AF51AD2559734B0030B7BE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D5D786259036350027F03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D5D78D259036350027F03B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2289,6 +2347,26 @@
 			};
 			name = Release;
 		};
+		F6D5D78E259036350027F03B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6D5D78F259036350027F03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F6F42D17255CC8A10087525F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2612,6 +2690,15 @@
 			buildConfigurations = (
 				F6AF51AE2559734B0030B7BE /* Debug */,
 				F6AF51AF2559734B0030B7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D5D790259036350027F03B /* Build configuration list for PBXNativeTarget "75. Sort Colors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D5D78E259036350027F03B /* Debug */,
+				F6D5D78F259036350027F03B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
