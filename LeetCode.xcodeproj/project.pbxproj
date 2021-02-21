@@ -16,6 +16,7 @@
 		F642BB562553DA1B00153D40 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F642BB552553DA1B00153D40 /* main.cpp */; };
 		F64AC331255AE1950031548D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64AC330255AE1950031548D /* main.cpp */; };
 		F64AC349255B71940031548D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F64AC348255B71940031548D /* main.cpp */; };
+		F673303225DFEF1F000625C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F673303125DFEF1F000625C8 /* main.cpp */; };
 		F678FE1D254AEA0C00FD275E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F678FE1C254AEA0C00FD275E /* main.cpp */; };
 		F679C95225613EDB00463EB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F679C95125613EDB00463EB0 /* main.cpp */; };
 		F679C97225620EE500463EB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F679C97125620EE500463EB0 /* main.cpp */; };
@@ -114,6 +115,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		F64AC344255B71940031548D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F673302D25DFEF1F000625C8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -341,6 +351,8 @@
 		F64AC330255AE1950031548D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F64AC346255B71940031548D /* 19. Remove Nth Node From End of List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19. Remove Nth Node From End of List"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64AC348255B71940031548D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F673302F25DFEF1F000625C8 /* 79. Word Search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "79. Word Search"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F673303125DFEF1F000625C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F678FE1A254AEA0C00FD275E /* 6. ZigZag Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6. ZigZag Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F678FE1C254AEA0C00FD275E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F679C94F25613EDB00463EB0 /* 41. First Missing Positive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "41. First Missing Positive"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -445,6 +457,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F64AC343255B71940031548D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F673302C25DFEF1F000625C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -680,6 +699,14 @@
 			path = "19. Remove Nth Node From End of List";
 			sourceTree = "<group>";
 		};
+		F673303025DFEF1F000625C8 /* 79. Word Search */ = {
+			isa = PBXGroup;
+			children = (
+				F673303125DFEF1F000625C8 /* main.cpp */,
+			);
+			path = "79. Word Search";
+			sourceTree = "<group>";
+		};
 		F678FE1B254AEA0C00FD275E /* 6. ZigZag Conversion */ = {
 			isa = PBXGroup;
 			children = (
@@ -746,6 +773,7 @@
 				F69FBA0C258B05B40088C113 /* 64. Minimum Path Sum */,
 				F6D5D78B259036350027F03B /* 75. Sort Colors */,
 				F6D5D7B4259096130027F03B /* 344. Reverse String */,
+				F673303025DFEF1F000625C8 /* 79. Word Search */,
 				F69311EE2497ABA900F132B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -784,6 +812,7 @@
 				F69FBA0B258B05B40088C113 /* 64. Minimum Path Sum */,
 				F6D5D78A259036350027F03B /* 75. Sort Colors */,
 				F6D5D7B3259096130027F03B /* 344. Reverse String */,
+				F673302F25DFEF1F000625C8 /* 79. Word Search */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1086,6 +1115,23 @@
 			name = "19. Remove Nth Node From End of List";
 			productName = "19. Remove Nth Node From End of List";
 			productReference = F64AC346255B71940031548D /* 19. Remove Nth Node From End of List */;
+			productType = "com.apple.product-type.tool";
+		};
+		F673302E25DFEF1F000625C8 /* 79. Word Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F673303525DFEF1F000625C8 /* Build configuration list for PBXNativeTarget "79. Word Search" */;
+			buildPhases = (
+				F673302B25DFEF1F000625C8 /* Sources */,
+				F673302C25DFEF1F000625C8 /* Frameworks */,
+				F673302D25DFEF1F000625C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "79. Word Search";
+			productName = "79. Word Search";
+			productReference = F673302F25DFEF1F000625C8 /* 79. Word Search */;
 			productType = "com.apple.product-type.tool";
 		};
 		F678FE19254AEA0C00FD275E /* 6. ZigZag Conversion */ = {
@@ -1498,6 +1544,9 @@
 					F64AC345255B71940031548D = {
 						CreatedOnToolsVersion = 12.1;
 					};
+					F673302E25DFEF1F000625C8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					F678FE19254AEA0C00FD275E = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -1610,6 +1659,7 @@
 				F69FBA0A258B05B40088C113 /* 64. Minimum Path Sum */,
 				F6D5D789259036350027F03B /* 75. Sort Colors */,
 				F6D5D7B2259096130027F03B /* 344. Reverse String */,
+				F673302E25DFEF1F000625C8 /* 79. Word Search */,
 			);
 		};
 /* End PBXProject section */
@@ -1684,6 +1734,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F64AC349255B71940031548D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F673302B25DFEF1F000625C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F673303225DFEF1F000625C8 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2028,6 +2086,26 @@
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F673303325DFEF1F000625C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F673303425DFEF1F000625C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -2633,6 +2711,15 @@
 			buildConfigurations = (
 				F64AC34B255B71940031548D /* Debug */,
 				F64AC34C255B71940031548D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F673303525DFEF1F000625C8 /* Build configuration list for PBXNativeTarget "79. Word Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F673303325DFEF1F000625C8 /* Debug */,
+				F673303425DFEF1F000625C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
